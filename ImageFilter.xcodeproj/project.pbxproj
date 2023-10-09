@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0345EA281CCBD300D77438 /* MoreComplexFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0345E9281CCBD300D77438 /* MoreComplexFilterController.m */; };
+		CC0345F0281CCD4A00D77438 /* FilterBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0345EC281CCD4A00D77438 /* FilterBarCell.m */; };
+		CC0345F1281CCD4A00D77438 /* FilterBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0345ED281CCD4A00D77438 /* FilterBar.m */; };
+		CC03460A281CCD6300D77438 /* Scale.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CC0345F7281CCD6300D77438 /* Scale.vsh */; };
+		CC03460B281CCD6300D77438 /* Scale.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CC0345F8281CCD6300D77438 /* Scale.fsh */; };
+		CC03460C281CCD6300D77438 /* Shake.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CC0345FA281CCD6300D77438 /* Shake.fsh */; };
+		CC03460D281CCD6300D77438 /* Shake.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CC0345FB281CCD6300D77438 /* Shake.vsh */; };
+		CC034614281CCD6300D77438 /* Namal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CC034606281CCD6300D77438 /* Namal.vsh */; };
+		CC034615281CCD6300D77438 /* Namal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CC034607281CCD6300D77438 /* Namal.fsh */; };
+		CC4D55A5275665CF00AE7B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4D55A4275665CF00AE7B6A /* AppDelegate.swift */; };
+		CC4D55A7275665CF00AE7B6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4D55A6275665CF00AE7B6A /* SceneDelegate.swift */; };
+		CC4D55A9275665CF00AE7B6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4D55A8275665CF00AE7B6A /* ViewController.swift */; };
+		CC4D55AC275665CF00AE7B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4D55AA275665CF00AE7B6A /* Main.storyboard */; };
+		CC4D55AE275665D000AE7B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4D55AD275665D000AE7B6A /* Assets.xcassets */; };
+		CC4D55B1275665D000AE7B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4D55AF275665D000AE7B6A /* LaunchScreen.storyboard */; };
+		CCAF722827579F1C00C4E39A /* SignAndLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF722727579F1C00C4E39A /* SignAndLogController.swift */; };
+		CCAF722A2757AC9300C4E39A /* ImageFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF72292757AC9300C4E39A /* ImageFilterViewController.swift */; };
+		CCAF722C2757B2CC00C4E39A /* MBProgressHudExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF722B2757B2CC00C4E39A /* MBProgressHudExtension.swift */; };
+		F721C52E43CD6988957188FC /* Pods_ImageFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2596A7A2A84037AE95FC92D /* Pods_ImageFilter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FD0693AA273AA7B224E26A2 /* Pods-ImageFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageFilter.debug.xcconfig"; path = "Target Support Files/Pods-ImageFilter/Pods-ImageFilter.debug.xcconfig"; sourceTree = "<group>"; };
+		8C7B9134B15F7ECA687855BD /* Pods-ImageFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageFilter.release.xcconfig"; path = "Target Support Files/Pods-ImageFilter/Pods-ImageFilter.release.xcconfig"; sourceTree = "<group>"; };
+		CC0345E7281CCBD300D77438 /* ImageFilter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageFilter-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC0345E8281CCBD300D77438 /* MoreComplexFilterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreComplexFilterController.h; sourceTree = "<group>"; };
+		CC0345E9281CCBD300D77438 /* MoreComplexFilterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreComplexFilterController.m; sourceTree = "<group>"; };
+		CC0345EC281CCD4A00D77438 /* FilterBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterBarCell.m; sourceTree = "<group>"; };
+		CC0345ED281CCD4A00D77438 /* FilterBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterBar.m; sourceTree = "<group>"; };
+		CC0345EE281CCD4A00D77438 /* FilterBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBarCell.h; sourceTree = "<group>"; };
+		CC0345EF281CCD4A00D77438 /* FilterBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBar.h; sourceTree = "<group>"; };
+		CC0345F7281CCD6300D77438 /* Scale.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Scale.vsh; sourceTree = "<group>"; };
+		CC0345F8281CCD6300D77438 /* Scale.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Scale.fsh; sourceTree = "<group>"; };
+		CC0345FA281CCD6300D77438 /* Shake.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shake.fsh; sourceTree = "<group>"; };
+		CC0345FB281CCD6300D77438 /* Shake.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shake.vsh; sourceTree = "<group>"; };
+		CC034606281CCD6300D77438 /* Namal.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Namal.vsh; sourceTree = "<group>"; };
+		CC034607281CCD6300D77438 /* Namal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Namal.fsh; sourceTree = "<group>"; };
+		CC4D55A1275665CF00AE7B6A /* ImageFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4D55A4275665CF00AE7B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC4D55A6275665CF00AE7B6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC4D55A8275665CF00AE7B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC4D55AB275665CF00AE7B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC4D55AD275665D000AE7B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC4D55B0275665D000AE7B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC4D55B2275665D000AE7B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAF722727579F1C00C4E39A /* SignAndLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignAndLogController.swift; sourceTree = "<group>"; };
+		CCAF72292757AC9300C4E39A /* ImageFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilterViewController.swift; sourceTree = "<group>"; };
+		CCAF722B2757B2CC00C4E39A /* MBProgressHudExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProgressHudExtension.swift; sourceTree = "<group>"; };
+		D2596A7A2A84037AE95FC92D /* Pods_ImageFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4D559E275665CF00AE7B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F721C52E43CD6988957188FC /* Pods_ImageFilter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BD0FF9B06B6B88565C96E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2596A7A2A84037AE95FC92D /* Pods_ImageFilter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F72D00E71E5A368854E8687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FD0693AA273AA7B224E26A2 /* Pods-ImageFilter.debug.xcconfig */,
+				8C7B9134B15F7ECA687855BD /* Pods-ImageFilter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC0345E6281CC90900D77438 /* FilterUtil */ = {
+			isa = PBXGroup;
+			children = (
+				CC0345F2281CCD6300D77438 /* Filter */,
+				CC0345EB281CCD4A00D77438 /* Tools */,
+			);
+			path = FilterUtil;
+			sourceTree = "<group>";
+		};
+		CC0345EB281CCD4A00D77438 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CC0345EC281CCD4A00D77438 /* FilterBarCell.m */,
+				CC0345ED281CCD4A00D77438 /* FilterBar.m */,
+				CC0345EE281CCD4A00D77438 /* FilterBarCell.h */,
+				CC0345EF281CCD4A00D77438 /* FilterBar.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CC0345F2281CCD6300D77438 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				CC0345F6281CCD6300D77438 /* Scale */,
+				CC0345F9281CCD6300D77438 /* Shake */,
+				CC034605281CCD6300D77438 /* Namal */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		CC0345F6281CCD6300D77438 /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				CC0345F7281CCD6300D77438 /* Scale.vsh */,
+				CC0345F8281CCD6300D77438 /* Scale.fsh */,
+			);
+			path = Scale;
+			sourceTree = "<group>";
+		};
+		CC0345F9281CCD6300D77438 /* Shake */ = {
+			isa = PBXGroup;
+			children = (
+				CC0345FA281CCD6300D77438 /* Shake.fsh */,
+				CC0345FB281CCD6300D77438 /* Shake.vsh */,
+			);
+			path = Shake;
+			sourceTree = "<group>";
+		};
+		CC034605281CCD6300D77438 /* Namal */ = {
+			isa = PBXGroup;
+			children = (
+				CC034606281CCD6300D77438 /* Namal.vsh */,
+				CC034607281CCD6300D77438 /* Namal.fsh */,
+			);
+			path = Namal;
+			sourceTree = "<group>";
+		};
+		CC4D5598275665CF00AE7B6A = {
+			isa = PBXGroup;
+			children = (
+				CC4D55A3275665CF00AE7B6A /* ImageFilter */,
+				CC4D55A2275665CF00AE7B6A /* Products */,
+				8F72D00E71E5A368854E8687 /* Pods */,
+				05BD0FF9B06B6B88565C96E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4D55A2275665CF00AE7B6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4D55A1275665CF00AE7B6A /* ImageFilter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4D55A3275665CF00AE7B6A /* ImageFilter */ = {
+			isa = PBXGroup;
+			children = (
+				CC0345E6281CC90900D77438 /* FilterUtil */,
+				CC4D55A4275665CF00AE7B6A /* AppDelegate.swift */,
+				CC4D55A6275665CF00AE7B6A /* SceneDelegate.swift */,
+				CC4D55A8275665CF00AE7B6A /* ViewController.swift */,
+				CC4D55AA275665CF00AE7B6A /* Main.storyboard */,
+				CC4D55AD275665D000AE7B6A /* Assets.xcassets */,
+				CC4D55AF275665D000AE7B6A /* LaunchScreen.storyboard */,
+				CC4D55B2275665D000AE7B6A /* Info.plist */,
+				CCAF722727579F1C00C4E39A /* SignAndLogController.swift */,
+				CCAF72292757AC9300C4E39A /* ImageFilterViewController.swift */,
+				CCAF722B2757B2CC00C4E39A /* MBProgressHudExtension.swift */,
+				CC0345E8281CCBD300D77438 /* MoreComplexFilterController.h */,
+				CC0345E9281CCBD300D77438 /* MoreComplexFilterController.m */,
+				CC0345E7281CCBD300D77438 /* ImageFilter-Bridging-Header.h */,
+			);
+			path = ImageFilter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4D55A0275665CF00AE7B6A /* ImageFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4D55B5275665D000AE7B6A /* Build configuration list for PBXNativeTarget "ImageFilter" */;
+			buildPhases = (
+				59DF9701E02FF14644BE38F2 /* [CP] Check Pods Manifest.lock */,
+				CC4D559D275665CF00AE7B6A /* Sources */,
+				CC4D559E275665CF00AE7B6A /* Frameworks */,
+				CC4D559F275665CF00AE7B6A /* Resources */,
+				166EAEA08A451999A4702625 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageFilter;
+			productName = ImageFilter;
+			productReference = CC4D55A1275665CF00AE7B6A /* ImageFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4D5599275665CF00AE7B6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CC4D55A0275665CF00AE7B6A = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = CC4D559C275665CF00AE7B6A /* Build configuration list for PBXProject "ImageFilter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC4D5598275665CF00AE7B6A;
+			productRefGroup = CC4D55A2275665CF00AE7B6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4D55A0275665CF00AE7B6A /* ImageFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4D559F275665CF00AE7B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC03460A281CCD6300D77438 /* Scale.vsh in Resources */,
+				CC034614281CCD6300D77438 /* Namal.vsh in Resources */,
+				CC4D55B1275665D000AE7B6A /* LaunchScreen.storyboard in Resources */,
+				CC03460B281CCD6300D77438 /* Scale.fsh in Resources */,
+				CC03460C281CCD6300D77438 /* Shake.fsh in Resources */,
+				CC4D55AE275665D000AE7B6A /* Assets.xcassets in Resources */,
+				CC4D55AC275665CF00AE7B6A /* Main.storyboard in Resources */,
+				CC034615281CCD6300D77438 /* Namal.fsh in Resources */,
+				CC03460D281CCD6300D77438 /* Shake.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		166EAEA08A451999A4702625 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageFilter/Pods-ImageFilter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageFilter/Pods-ImageFilter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImageFilter/Pods-ImageFilter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59DF9701E02FF14644BE38F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageFilter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4D559D275665CF00AE7B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4D55A9275665CF00AE7B6A /* ViewController.swift in Sources */,
+				CCAF722A2757AC9300C4E39A /* ImageFilterViewController.swift in Sources */,
+				CC4D55A5275665CF00AE7B6A /* AppDelegate.swift in Sources */,
+				CC0345EA281CCBD300D77438 /* MoreComplexFilterController.m in Sources */,
+				CCAF722C2757B2CC00C4E39A /* MBProgressHudExtension.swift in Sources */,
+				CC0345F0281CCD4A00D77438 /* FilterBarCell.m in Sources */,
+				CC0345F1281CCD4A00D77438 /* FilterBar.m in Sources */,
+				CC4D55A7275665CF00AE7B6A /* SceneDelegate.swift in Sources */,
+				CCAF722827579F1C00C4E39A /* SignAndLogController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC4D55AA275665CF00AE7B6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4D55AB275665CF00AE7B6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC4D55AF275665D000AE7B6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4D55B0275665D000AE7B6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4D55B3275665D000AE7B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC4D55B4275665D000AE7B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4D55B6275665D000AE7B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD0693AA273AA7B224E26A2 /* Pods-ImageFilter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ImageFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxx.imagefilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageFilter/ImageFilter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC4D55B7275665D000AE7B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7B9134B15F7ECA687855BD /* Pods-ImageFilter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ImageFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxx.imagefilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageFilter/ImageFilter-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4D559C275665CF00AE7B6A /* Build configuration list for PBXProject "ImageFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4D55B3275665D000AE7B6A /* Debug */,
+				CC4D55B4275665D000AE7B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4D55B5275665D000AE7B6A /* Build configuration list for PBXNativeTarget "ImageFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4D55B6275665D000AE7B6A /* Debug */,
+				CC4D55B7275665D000AE7B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4D5599275665CF00AE7B6A /* Project object */;
+}
